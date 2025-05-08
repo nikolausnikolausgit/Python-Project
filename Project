@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-path = r"C:\Users\NikolaySanin\Desktop\dz2_data.xlsx"
+path = r"C:\Users\NikolaySanin\Desktop\database.xlsx"
 
 department = pd.read_excel(path, sheet_name='department')
 subject = pd.read_excel(path, sheet_name='subject')
